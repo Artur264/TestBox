@@ -1,0 +1,64 @@
+.watch {
+    margin-left: 190px;
+    padding-bottom: 147px;
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    &__img {
+        margin-right: 204px;
+    }
+
+    &__content {
+        position: relative;
+    }
+
+    &__content::after {
+        position: absolute;
+        content: "";
+        display: block;
+        background-color: #C4C4C4;
+        width: 1px;
+        height: 221px;
+        left: -68px;
+        top: 38px;
+    }
+
+    &__text {
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        width: 645px;
+    }
+
+
+    &__btn {
+        .btn-reset;
+        padding: 8px 30px 8px 37px ;
+        background-color: #34A9A2;
+    }
+
+    &__link {
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        text-decoration: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
