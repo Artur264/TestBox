@@ -176,7 +176,7 @@ body {
   flex-wrap: wrap;
 }
 .watch__img {
-  margin-right: 204px;
+  margin-right: 167px;
 }
 .watch__content {
   position: relative;
@@ -245,7 +245,10 @@ body {
 .info {
   position: relative;
   width: 308px;
-  margin-right: 40px;
+  margin-right: 30px;
+}
+.info:last-child {
+  margin-right: 0px;
 }
 .info__img {
   margin-bottom: 28px;
